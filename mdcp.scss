@@ -1,0 +1,14 @@
+$state-light-text : #FFFFFF;
+$state-dark-text : #000000;
+
+$color-map: ( //create a array to support the two colors light and dark
+    light: $state-light-text,
+    dark: $state-dark-text
+);
+
+
+@each $color-key, $color-var in $color-map {
+    .myclass--#{$color-key} { //will generate .myclass--light  .myclass--dark
+        background-color: $color-var; // equal $state-light-text or $state-dark-text
+    }
+}
