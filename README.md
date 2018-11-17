@@ -18,7 +18,7 @@ $color-map: (
 )
 ```
  3. Using map turn all colors to background-color, Color and
- border-color with the  same name
+ border-color with the same name
 ``` 
 @each $color-key, $color-var in $color-map {
 	.md-bg--#{$color-key} {
@@ -27,7 +27,7 @@ $color-map: (
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTAxODg3MiwxMTIzOTI5MzI5LDE2OD
+eyJoaXN0b3J5IjpbMjA5NTU4NjUyOCwxMTIzOTI5MzI5LDE2OD
 QzMjY4ODcsMjExMzcyODIyOSw0NDA0MzIzNDgsODYxMjU2ODk5
 LC0xMzE5NzExMTM1LC0xODA2MTIyNDAxXX0=
 -->
