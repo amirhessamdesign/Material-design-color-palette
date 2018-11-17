@@ -8,8 +8,8 @@ sass file orgnized in three parts/steps
     $Red-500  :  #F44336;
     
  2. Turn color varibles to a color map 
- 3. Using map
+ 3. Using map turn all colors to background-color, Color and border-color with same name 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNjk3MTYzXX0=
+eyJoaXN0b3J5IjpbLTE4MDYxMjI0MDFdfQ==
 -->
