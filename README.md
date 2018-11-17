@@ -1,7 +1,7 @@
 # Material-design-color-palette
 Scss (sass) and css material design color palette to use in your next project. 
 
-![Image](https://photos.app.goo.gl/7dggVEnwvqpffc5U8)
+![Image](https://i.imgur.com/J5ZQIsd.png)
 
 ## Customaztion 
 Use sass file to create your custome class names 
@@ -27,7 +27,7 @@ $color-map: (
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDMyNjg4NywyMTEzNzI4MjI5LDQ0MD
-QzMjM0OCw4NjEyNTY4OTksLTEzMTk3MTExMzUsLTE4MDYxMjI0
-MDFdfQ==
+eyJoaXN0b3J5IjpbMTEyMzkyOTMyOSwxNjg0MzI2ODg3LDIxMT
+M3MjgyMjksNDQwNDMyMzQ4LDg2MTI1Njg5OSwtMTMxOTcxMTEz
+NSwtMTgwNjEyMjQwMV19
 -->
