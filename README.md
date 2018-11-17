@@ -5,20 +5,20 @@ Scss (sass) and css material design color palette to use in your next project.
 
 ## Customization
 Use sass file to create your custom class names 
-sass file orgnized in three parts/steps
+sass file orgnized into three parts/steps
 
- 1. Defining all colors and turn the colors to varibales
+ 1. Defining all colors and turn the colors to variables
 ``` 
 $Red-500 : #F44336; 
 ```
- 2. Turn color varibles to a color map
+ 2. Turn color variables to a color map
 ``` 
 $color-map: (
 	Red-50 : $Red-50 
 )
 ```
  3. Using map turn all colors to background-color, Color and
- border-color with same name
+ border-color with the  same name
 ``` 
 @each $color-key, $color-var in $color-map {
 	.md-bg--#{$color-key} {
@@ -27,7 +27,7 @@ $color-map: (
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjMyODMxMywxMTIzOTI5MzI5LDE2OD
+eyJoaXN0b3J5IjpbMTQ1NTAxODg3MiwxMTIzOTI5MzI5LDE2OD
 QzMjY4ODcsMjExMzcyODIyOSw0NDA0MzIzNDgsODYxMjU2ODk5
 LC0xMzE5NzExMTM1LC0xODA2MTIyNDAxXX0=
 -->
