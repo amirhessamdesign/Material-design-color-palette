@@ -19,13 +19,12 @@ $color-map: (
 ``` 
 @each  $color-key, $color-var  in  $color-map {
 	.md-bg--#{$color-key} {
-background-color:  $color-var; 
-
-}
-
+		background-color:  $color-var;
+	}
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTY3NDE4MSwtMTgwNjEyMjQwMV19
+eyJoaXN0b3J5IjpbLTEzMTk3MTExMzUsLTE4MDYxMjI0MDFdfQ
+==
 -->
